@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virgo Virtualis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        .main-container { text-align: center; padding: 50px; }
+        .language-button { width: 200px; height: 50px; background-color: #007BFF; color: white; border: none; border-radius: 25px; cursor: pointer; position: relative; }
+        .language-button:hover { background-color: #0056b3; }
+        .arrow { position: absolute; width: 15px; height: 15px; background-color: #007BFF; border-radius: 50%; text-align: center; line-height: 15px; font-size: 12px; color: white; transform: translateY(-50%); }
+        .model-image { margin-top: 30px; width: 150px; }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <img src="your-image-path/model.png" alt="Webcam Model" class="model-image">
+        <button class="language-button">
+            <span>Select Language</span>
+            <div class="arrow arrow-1">AL</div>
+            <div class="arrow arrow-2">BG</div>
+            <div class="arrow arrow-3">BS</div>
+            <div class="arrow arrow-4">HU</div>
+            <div class="arrow arrow-5">MK</div>
+            <div class="arrow arrow-6">MD</div>
+            <div class="arrow arrow-7">PL</div>
+            <div class="arrow arrow-8">RO</div>
+            <div class="arrow arrow-9">SR</div>
+            <div class="arrow arrow-10">UA</div>
+            <div class="arrow arrow-11">ME</div>
+            <div class="arrow arrow-12">CS</div>
+        </button>
+    </div>
+</body>
+</html>
